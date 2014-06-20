@@ -4,7 +4,7 @@
 Contains four Java projects for Stanford's OOP course aimed at gaining practice
 with concurrency as well as Java command line programs:
 
-Bank -
+Bank.java -
 Bank which consists of 20 accounts initialized to some default amount, 
 reads in file of transactions between specified accounts (ranged from 20-100k). 
 Use threads to speed up transactions, but must properly lock both accounts 
@@ -31,13 +31,13 @@ hash using a specified number of threads, respectively:
 
 For cracking, each thread is assigned a string space to recursively test.
 
-JCounter.java -
+JCounter.java - (see jcounter.png)
 GUI with several JCount objects which independently fork off a worker 
 and count up to a value specified in their text field. This was meant to
 demonstrate the utility of moving computationally intense routines off
 of the GUI thread to prevent appearance of "freezing"
 
-WebFrame.java, WebWorker.java -
+WebFrame.java, WebWorker.java - (see webloader.png)
 WebFrame implements a GUI interface which uses WebWorker instances to 
 download the contents of several URLs, specified in an input file.
 Utilizes semaphores to coordinate workers.
