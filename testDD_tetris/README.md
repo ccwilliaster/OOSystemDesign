@@ -21,12 +21,12 @@ detecting filled rows, board integrity, etc. It does not do any drawing or manag
 It also implements a *1-step undo* functionality, which is used by the Tetris 
 Brain to test moves in order to find the best move at a given time. 
 
-####JTetris.java (provided to us)
+####JTetris.java (provided to us, extended for Brain tetris)
 Provides GUI a user-only (no computer) version of the game in which
 speed can be toggled and Pieces moved with j/k/l keys. The "test sequence"
 option toggles a specific set of 100 pieces to be used, for testing.
 
-####JBrainTetris 
+####JBrainTetris.java
 Extends JTetris to include a simple AI brain to auto-play pieces. 
 It employs a simple heuristic to compute the best play available by iterating
 over possible rotations and drop-points for a given piece given the current
