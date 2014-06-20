@@ -1,5 +1,5 @@
-@author: ccwilliams
-@date:   2014-01
+####@author: ccwilliams
+####@date:   2014-01
 
 This is a Java implementation of tetris for Stanford's OOP course. It emphasizes
 test-driven development (JUnit), OOP encapsulation and modularity. Generally, the 
