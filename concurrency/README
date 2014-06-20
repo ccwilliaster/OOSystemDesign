@@ -31,7 +31,8 @@ hash using a specified number of threads, respectively:
 
 For cracking, each thread is assigned a string space to recursively test.
 
-JCounter.java - (see jcounter.png)
+JCounter.java -
+![JCounter](jcounter.png)
 GUI with several JCount objects which independently fork off a worker 
 and count up to a value specified in their text field. This was meant to
 demonstrate the utility of moving computationally intense routines off
